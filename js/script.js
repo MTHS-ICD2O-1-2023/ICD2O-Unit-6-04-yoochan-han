@@ -16,5 +16,5 @@ window.onload = function CaseTest() {
   let ans = 4 / 3 * ((radius ** 3).toFixed(2))
   document.getElementById("get_radius").innerHTML = radius
   document.getElementById("get_unit").innerHTML = unit
-  document.getElementById("Ans").innerHTML = "V = " + ans.toFixed(2) + pi + unit
+  document.getElementById("Ans").innerHTML = "V = " + ans.toFixed(2) + pi + unit + "³"
 }
