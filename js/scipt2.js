@@ -14,7 +14,7 @@ window.onload = function CaseTest() {
 
   //process
   const ans = 1/2*(height*base).toFixed(2)
-  document.getElementById("get_radius").innerHTML = 
+  document.getElementById("get_height").innerHTML = height
   document.getElementById("get_unit").innerHTML = unit
   document.getElementById("Ans").innerHTML = "S = " + ans + unit + "²"
 }
