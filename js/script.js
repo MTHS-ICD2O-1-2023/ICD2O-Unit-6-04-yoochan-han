@@ -13,7 +13,7 @@ window.onload = function CaseTest() {
   const unit = params.get("unit")
 
   //process
-  const ans = 4 / 3 * ((radius ** 3).toFixed(2))
+  const ans = (4 / 3 * (radius ** 3)).toFixed(2)
   document.getElementById("get_radius").innerHTML = radius
   document.getElementById("get_unit").innerHTML = unit
   document.getElementById("Ans").innerHTML = "V = " + ans + pi + unit + "³"
